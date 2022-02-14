@@ -1,0 +1,10 @@
+{
+  "short_name": "LinCompliance",
+  "name": "Licences compliance checker",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#c51843",
+  "background_color": "#252525"
+}

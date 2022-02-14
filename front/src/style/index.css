@@ -1,0 +1,124 @@
+:root, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --primary-color: #c51843;
+  --secondary-color: #FFF;
+  --dark-color: #252525;
+}
+
+.Package {
+  margin: auto;
+}
+.App, .EC {
+  min-height: 100%;
+}
+
+.EC {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Header {
+  margin-bottom: 2%; /* TODO: <- change this*/
+}
+
+/*
+** sources: https://loading.io/css/
+*/
+.Loader {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.Loader div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid;
+  border-radius: 50%;
+  animation: Loader 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: var(--primary-color) transparent transparent transparent;
+}
+.Loader div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.Loader div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.Loader div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes Loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/**
+  * Personalized class
+ */
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+.drop-zone {
+  height: 200px;
+  border-width: 2px;
+  color: #ccc;
+  border-style: dashed;
+  border-color: #ccc;
+  line-height: 200px;
+  text-align: center
+}
+.drop-zone>input {
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+  transform: translate(0, -303px);
+}
+.drop-zone>label {
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+.file-upload {
+  display: none;
+  text-align: center;
+}
+.file-upload>svg {
+  max-height: 200px;
+  max-width: 200px;
+  padding: 1%;
+  min-height: 60px;
+  min-width: 60px;
+}

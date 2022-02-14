@@ -1,0 +1,15 @@
+[Unit]
+Description=uWSGI instance to the api
+After=network.target
+
+[Service]
+User=nginx
+Group=nginx
+WorkingDirectory=/root
+Environment="PATH=/root/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+Environment="GOBIN=/usr/local/src/go/bin"
+Environment="GOPATH=/usr/local/src/go"
+ExecStart=/root/venv/bin/uwsgi --ini /root/api.ini -H /root/venv
+
+[Install]
+WantedBy=multi-user.target

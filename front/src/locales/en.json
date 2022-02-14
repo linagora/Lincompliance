@@ -1,0 +1,30 @@
+{
+  "general": {
+    "title": "LinCompliance"
+  },
+  "ec": {
+    "title": "Export Control",
+    "analyse_success": "Analyse succeed.",
+    "error_prefix": "An error occured: ",
+    "restart": "Restart"
+  },
+  "upload_form": {
+    "launch": "Launch Analyse"
+  },
+  "uploader": {
+    "import": "Import zip file",
+    "drag_text": "Drag and drop a file"
+  },
+  "package_table": {
+    "name": "Name",
+    "version": "Version",
+    "description": "Description",
+    "algoList": "Algos list",
+    "score": "Score",
+    "licence": "Licences",
+    "code": "suggested ECCN",
+    "import": "Import Zip file",
+    "upload": "Upload",
+    "title_prefix": "Export control analysis of "
+  }
+}

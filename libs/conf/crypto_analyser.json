@@ -1,0 +1,10 @@
+{
+  "AllEncryption": {
+    "algorithms": "AES,3DES,DES,PBEWITHSHA256AND128BITAES-CBC-BC,DESede,RC2,RC4,RC5,IDEA,Blowfish,PBEWithMD5AndDES,PBEWithHmacSHA1AndDESede,AesCryptoServiceProvider,AesCng,AesManaged,AsymmetricAlgorithm,sjcl,js-nacl,jsbn,ursa,jsencrypt,OpenPGP,jwcrypto,cryptico,forge,CryptoJS,Cifre,FoxyCrypt,cryptojs,jscrypto,pidCrypt,prop1,prop2,prop3,FTF1,RSA",
+    "exclude_words": "provides,includes,excludes,descript,design,destroy,destruct,destin,despite,slides,transversal,traversable,vice.and.versa,parsable,sourceforge,forget,traversal,errorcodes,describ,description,overrides,sortDesc,Overrides,decides,childNodes,guides,colorSafe,upgrades,desired,powersav,descending,accesscodes"
+  },
+  "StrongEncryption": {
+    "algorithms_strong": "AES,3DES,RSA,Blowfish"
+  },
+  "ExtensionsTargets": "java,xml,c,scala,ts,js,cs,cpp,json,py,bat,coffee,sh,feature,yml,h"
+}
