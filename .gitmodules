@@ -1,0 +1,4 @@
+[submodule "ort"]
+	path = ort
+	url = https://github.com/oss-review-toolkit/ort.git
+	branch = master
